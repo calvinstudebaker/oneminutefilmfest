@@ -59,6 +59,12 @@ a {
     align-items: center;
 }
 
+.info-row {
+    margin: 20px 100px;
+    font-size: 20px;
+    text-align: left;
+}
+
 .button {
     min-width: 300px;
     min-height: 60px;
