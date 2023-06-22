@@ -1,6 +1,7 @@
 body {
-    background-color: #5cdb95;
+    background-color: black;
     font-family: Helvetica;
+    color: white;
 }
 
 .center {
@@ -51,6 +52,7 @@ img {
 
 a {
     text-decoration: none;
+    color: #0aa;
 }
 
 .film-list {
