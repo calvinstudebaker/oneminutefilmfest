@@ -35,19 +35,14 @@ img {
 }
 
 .film-tile {
-    border-radius: 10px;
     padding: 20px 40px;
-    background-color: lightblue;
-    color:  black !important;
-    width: 440px;
-    margin-bottom: 10px;
     text-align: left;
-    transition: width 0.2s, filter 0.2s;
+    transition: filter 0.2s;
+    flex: 1 1 0;
 }
 
 .film-tile:hover {
-    width:  450px;
-    filter: brightness(110%);
+    filter: brightness(140%);
 }
 
 a {
@@ -55,11 +50,16 @@ a {
     color: #0aa;
 }
 
-.film-list {
+.film-row {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
+}
+
+@media only screen and (max-width: 900px) {
+    .film-row {
+        flex-direction: column;
+    }
 }
 
 .info-row {
