@@ -44,12 +44,12 @@ iframe {
 }
 
 .film-tile {
-    padding: 20px 40px;
+    padding: 40px;
     text-align: left;
     transition: filter 0.2s;
     min-height: 300px;
     min-width: 400px;
-    flex: 1 1 auto;
+    flex: 0 1 500px;
 }
 
 .film-tile:hover {
@@ -63,13 +63,16 @@ a {
 
 .film-row {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 @media only screen and (max-width: 900px) {
     .film-row {
         flex-direction: column;
+    }
+    .film-tile {
+        flex: 1 1 auto;
     }
 }
 
