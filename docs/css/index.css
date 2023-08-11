@@ -176,14 +176,14 @@ button:focus::after {
 
 .top-nav {
     background-color: black;
-    border-bottom: 2px solid white;
+    border-bottom: 1px solid white;
     display: flex;
     align-items: center;
     padding: 20px;
 }
 
 .top-nav a {
-    color: #f2f2f2;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -205,7 +205,6 @@ button:focus::after {
 
 .top-nav a.logo {
     font-size: 24px;
-/*    padding-bottom: 5px;*/
 }
 
 @media only screen and (max-width: 800px) {
